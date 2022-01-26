@@ -49,7 +49,7 @@
             </div>
         </div>
         <div class="purpose">
-            <p class="purpose-title">这是一个标题</p>
+            <p class="purpose-title">我们的目标</p>
             <div class="purpose-content">
                 <div class="purpose-item">
                     <a href="#">
@@ -81,60 +81,69 @@
         </div>
         <div class="schedule">
             <p class="title">课程安排</p>
-            <div class="schedule-class">
-                <img src="src/img/IMG_schedule.jpg" alt="是个头像">
-                <div>
-                    <p class="schedule-class-name">第一节课 名字</p>
-                    <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
-                    <div class="tag tag-html">html</div>
-                </div>
-            </div>
-            <div class="schedule-class">
-                <img src="src/img/IMG_schedule.jpg" alt="是个头像">
-                <div>
-                    <p class="schedule-class-name">第二节课 名字</p>
-                    <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
-                    <div class="tag tag-css">css</div>
-                </div>
-            </div>
-            <div class="schedule-class">
-                <img src="src/img/IMG_schedule.jpg" alt="是个头像">
-                <div>
-                    <p class="schedule-class-name">第三节课 名字</p>
-                    <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
-                    <div class="tag tag-js">js</div>
-                </div>
-            </div>
-            <div class="schedule-class">
-                <img src="src/img/IMG_schedule.jpg" alt="是个头像">
-                <div>
-                    <p class="schedule-class-name">第四节课 名字</p>
-                    <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
-                    <div class="tag tag-html">html</div>
-                    <div class="tag tag-css">css</div>
-                    <div class="tag tag-js">js</div>
-                </div>
-            </div>
-            <div class="schedule-class">
-                <img src="src/img/IMG_schedule.jpg" alt="是个头像">
-                <div>
-                    <p class="schedule-class-name">第五节课 名字</p>
-                    <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
-                    <div class="tag tag-html">html</div>
+            <ul class="tab clearfix" id="ul-tab">
+                <li>css</li>
+                <li>html</li>
+                <li>js</li>
+                <li>全部</li>
+            </ul>
 
-                    <div class="tag tag-js">js</div>
+            <div id="class-root">
+                <div class="schedule-class class-html">
+                    <img src="src/img/IMG_schedule.jpg" alt="是个头像">
+                    <div>
+                        <p class="schedule-class-name">第一节课 名字</p>
+                        <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
+                        <div class="tag tag-html">html</div>
+                    </div>
                 </div>
-            </div>
-            <div class="schedule-class">
-                <img src="src/img/IMG_schedule.jpg" alt="是个头像">
-                <div>
-                    <p class="schedule-class-name">第六节课 名字</p>
-                    <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
-                    <div class="tag tag-html">html</div>
-                    <div class="tag tag-css">css</div>
+                <div class="schedule-class class-css">
+                    <img src="src/img/IMG_schedule.jpg" alt="是个头像">
+                    <div>
+                        <p class="schedule-class-name">第二节课 名字</p>
+                        <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
+                        <div class="tag tag-css">css</div>
+                    </div>
+                </div>
+                <div class="schedule-class class-js">
+                    <img src="src/img/IMG_schedule.jpg" alt="是个头像">
+                    <div>
+                        <p class="schedule-class-name">第三节课 名字</p>
+                        <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
+                        <div class="tag tag-js">js</div>
+                    </div>
+                </div>
+                <div class="schedule-class class-css class-html class-js">
+                    <img src="src/img/IMG_schedule.jpg" alt="是个头像">
+                    <div>
+                        <p class="schedule-class-name">第四节课 名字</p>
+                        <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
+                        <div class="tag tag-html">html</div>
+                        <div class="tag tag-css">css</div>
+                        <div class="tag tag-js">js</div>
+                    </div>
+                </div>
+                <div class="schedule-class class-html class-js">
+                    <img src="src/img/IMG_schedule.jpg" alt="是个头像">
+                    <div>
+                        <p class="schedule-class-name">第五节课 名字</p>
+                        <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
+                        <div class="tag tag-html">html</div>
+                        <div class="tag tag-js">js</div>
+                    </div>
+                </div>
+                <div class="schedule-class class-html class-css">
+                    <img src="src/img/IMG_schedule.jpg" alt="是个头像">
+                    <div>
+                        <p class="schedule-class-name">第六节课 名字</p>
+                        <p class="class-description">小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落小一些长一些的文字段落</p>
+                        <div class="tag tag-html">html</div>
+                        <div class="tag tag-css">css</div>
 
+                    </div>
                 </div>
             </div>
+
         </div>
     </div>
     <footer>
@@ -171,6 +180,7 @@
             </div>
         </div>
     </footer>
+
 </body>
 
 </html>

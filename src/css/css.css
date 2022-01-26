@@ -14,6 +14,22 @@ header{
     background: rgba(0, 0, 0, 0.5)
 }
 
+.transparent{
+    visibility: hidden;
+}
+
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+
+.clearfix{
+    zoom: 1;
+}
+
 .logo, .logo-icon, .site-name,.link{
     display: inline-block;
 }
@@ -128,6 +144,25 @@ header{
     text-align: center;
     font-weight: bold;
 }
+
+.schedule .tab li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0 1.5rem;
+    border-bottom: lightslategray 2px solid;
+    font-size: 1.8rem;
+    float: right;
+    opacity: 0.3;
+}
+
+.schedule .tab li:hover{
+
+    border-bottom: gray 2px solid;
+    opacity: 1;
+    cursor: pointer;
+}
+
+
 
 .schedule .schedule-class{
     margin: 1.5rem 0;
