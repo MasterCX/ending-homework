@@ -14,6 +14,20 @@ header{
     background: rgba(0, 0, 0, 0.5)
 }
 
+.clearfix{
+    zoom: 1
+}
+
+.clearfix:after{
+    content: "";        
+    display: block;        
+    height: 0;        
+    clear: both;        
+    visibility: hidden;        
+
+}
+
+
 .logo, .logo-icon, .site-name,.link{
     display: inline-block;
 }
@@ -58,6 +72,9 @@ header{
     align-items: center;
     height: 30rem;
     background-image: url(https://dss1.bdstatic.com/kvoZeXSm1A5BphGlnYG/skin/824.jpg?2);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    max-width: 100%;
 }
 .banner p{
     font-size: 3rem;
@@ -66,4 +83,85 @@ header{
 }
 .banner p:hover{
     transform:scale(1.1)
+}
+
+.purpose-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.main-content{
+    margin: 5rem auto 0 auto;
+}
+
+.main-content .purpose{
+    text-align: left;
+}
+.main-content .purpose .purpose-title{
+    font-size: 2rem;
+}
+
+.main-content .purpose .purpose-content .item-title{
+    font-size: 1.5rem;
+    color: black;
+}
+
+.main-content .purpose .purpose-content .purpose-item{
+    max-width: 20%;
+}
+
+.main-content .purpose .purpose-content .purpose-item img{
+    max-width: 100%;
+}
+
+.schedule{
+    text-align: center;
+}
+
+.schedule .title{
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.schedule .schedule-class{
+    max-width: 100%;
+    display: flex;
+}
+
+.schedule .schedule-class img{
+    max-width: 7rem;
+    border-radius: 50%;
+}
+
+.schedule .schedule-class .schedule-class-name{
+    font-size: 1.8rem;
+}
+
+.schedule .schedule-class .class-description{
+    font-size: 1rem;
+}
+
+.schedule .schedule-class .schedule-class-name, .schedule .schedule-class .class-description{
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    background-color: lightgray;
+    background-size: 100% auto;
+    max-width: 100%;
+    
+}
+
+.footer .footer-links a{
+    display: block;
+}
+
+.footer .footer-container{
+    margin: 1.5rem;
 }
